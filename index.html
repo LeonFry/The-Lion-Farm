@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>The Lion Farm</title>
+    <meta name="description" content="Exploring Art, Design, and Everything Else">
+    <meta name="author" content="The Lion Farm">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,100,100italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- JS
+    ___________________________________________________ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script>
+      $(document).ready(function(){
+      $("#sticker").sticky({topSpacing:0});
+      });
+    </script>
+    <script>
+      $("#sticker").unstick();
+    </script>
+  </head>
+  <body>
+    <header class="splash">
+      <img src="images/site-bg_01.png" class="splash-background">
+      <img src="images/tlf-logo.png" class="logo-banner">
+      <h1>Exploring Art, Design, and Everything Else.</h1>
+    </header>
+    <div class="top-nav" id="sticker">
+      <img src="images/tlf-logo.png" class="nav-logo">
+      <ul>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+        </li>
+        <li>
+          <a href="#">Store</a>
+        </li>
+      </ul>
+    </div>
+    <div class="page-body">
+      <div class="dummy-content"></div>
+    </div>
+  </body>
+</html>
