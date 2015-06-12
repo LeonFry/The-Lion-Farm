@@ -31,40 +31,24 @@
     ___________________________________________________ -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
-    <script>
-      $(document).ready(function(){
-      $("#sticker").sticky({topSpacing:0});
-      });
-    </script>
-    <script>
-      $("#sticker").unstick();
-    </script>
   </head>
   <body>
-    <header class="splash">
-      <img src="images/site-bg_01.png" class="splash-bg">
-      <div class="splash-banner">
-        <img src="images/tlf-logo.png" class="splash-logo">
-        <h1>Exploring Art, Design, and Everything Else.</h1>
-      </div>
-    </header>
-    <div class="top-nav" id="sticker">
-     <!-- <img src="images/site-bg_02.png" class="nav-bg">-->
-      <img src="images/tlf-logo.png" class="nav-logo">
+    <div class="top-nav-fixed">
+      <img src="images/site-bg_02.png" class="nav-bg">
+      <img src="images/tlf-logo.png" class="nav-logo nav-logo-fixed">
       <ul>
         <li>
-          <a href="index.html" class="top-nav-link top-nav-selected">Blog</a>
+          <a href="index.html" class="top-nav-link">Blog</a>
         </li>
         <li>
-          <a href="projects.html" class="top-nav-link top">Projects</a>
+          <a href="projects.html" class="top-nav-link top-nav-selected">Projects</a>
         </li>
         <li>
-          <a href="#" class="top-nav-link top">Store</a>
+          <a href="#" class="top-nav-link">Store</a>
         </li>
       </ul>
     </div>
-    <div class="page-body">
-      <!--<img src="images/site-bg_03.png" class="page-bg">-->
+    <div class="page-body-fixed">
       <div class="page-content">
         <div class="dummy-content">Dummy Content</div>
         <div class="dummy-content">Dummy Content</div>
