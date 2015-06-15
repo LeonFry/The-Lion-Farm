@@ -220,3 +220,19 @@ a {
 	display: inline-block;
 	margin: 0;
 }
+.about-box {
+	width: 100%;
+	margin: 0 auto;
+	padding: 1rem;
+}
+.product-list {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.product-list li {
+	display: inline-block;
+}
+.product a {
+	display: block;
+}
