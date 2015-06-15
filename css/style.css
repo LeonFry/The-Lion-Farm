@@ -200,6 +200,10 @@ a {
 .project {
 	height: 300px;
 	overflow: hidden;
+	text-align: center;
+}
+.project p {
+	text-align: left;
 }
 .project-list {
 	width: 100%
